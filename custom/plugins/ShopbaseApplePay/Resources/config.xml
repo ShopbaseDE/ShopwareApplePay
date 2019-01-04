@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="text" required="true">
+            <name>merchantIdentifier</name>
+            <label lang="en">Merchant Identifier</label>
+            <label lang="de">Händleridentifikation</label>
+        </element>
+        <element type="select" required="true">
+            <name>buttonStyle</name>
+            <label lang="en">Button Style</label>
+            <label lang="de">Button Style</label>
+            <value>black</value>
+            <store>
+                <option>
+                    <value>black</value>
+                    <label lang="en">Black</label>
+                    <label lang="de">Schwarz</label>
+                </option>
+                <option>
+                    <value>white-outline</value>
+                    <label lang="en">White with outline</label>
+                    <label lang="de">Weiß mit rand</label>
+                </option>
+                <option>
+                    <value>white</value>
+                    <label lang="en">White</label>
+                    <label lang="de">Weiß</label>
+                </option>
+            </store>
+        </element>
+        <element type="select" required="true">
+            <name>buttonType</name>
+            <label lang="en">Button Type</label>
+            <label lang="de">Button Typ</label>
+            <value>buy</value>
+            <store>
+                <option>
+                    <value>plain</value>
+                    <label lang="en">Plain</label>
+                    <label lang="de">Nur Logo</label>
+                </option>
+                <option>
+                    <value>book</value>
+                    <label lang="en">Book</label>
+                    <label lang="de">Buchen</label>
+                </option>
+                <option>
+                    <value>buy</value>
+                    <label lang="en">Buy</label>
+                    <label lang="de">Kaufen</label>
+                </option>
+                <option>
+                    <value>check-out</value>
+                    <label lang="en">Check out</label>
+                    <label lang="de">Bezahlen</label>
+                </option>
+                <option>
+                    <value>donate</value>
+                    <label lang="en">Donate</label>
+                    <label lang="de">Spenden</label>
+                </option>
+                <option>
+                    <value>set-up</value>
+                    <label lang="en">Set up</label>
+                    <label lang="de">Einrichten</label>
+                </option>
+                <option>
+                    <value>subscribe</value>
+                    <label lang="en">Subscribe</label>
+                    <label lang="de">Abonnieren</label>
+                </option>
+            </store>
+        </element>
+        <element type="text" required="true">
+            <name>buttonLanguage</name>
+            <label lang="en">Language</label>
+            <label lang="de">Sprache</label>
+            <value>auto</value>
+        </element>
+    </elements>
+</config>
